@@ -110,7 +110,7 @@ void print(list * l) {
 }
 
 void _delete(list *l) {
-  if ((*l)->next != NULL)
+  if ((*l)->next != NULL) 
     _delete(&(*l)->next);
   free(*l);
 }
